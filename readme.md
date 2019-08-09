@@ -3,7 +3,7 @@ NPM, Composer required.
 <br>
 run npm install, composer update, set up a .env file and run laravel symlink to set up the project.
 <h4>A preview of the homepage.</h4>
-<img src="https://i.imgur.com/y75JPKF.jpg">
+<img src="https://i.imgur.com/y75JPKF.jpg" style="width: 50%;">
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
