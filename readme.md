@@ -1,3 +1,7 @@
+My first laravel project. It is a library management system. 
+NPM, Composer required.
+run npm install, composer update, set up a .env file and run laravel symlink to set up the project.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
