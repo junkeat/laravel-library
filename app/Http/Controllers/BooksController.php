@@ -12,7 +12,7 @@ use DB;
 class BooksController extends Controller
 {
     public function __construct(){
-        $this->middleware('adminCheck', ['except' => ['index', 'show', 'search']]);
+        $this->middleware('adminCheck', ['except' => ['index', 'show', 'search','getAPI']]);
     }
     /**
      * Display a listing of the resource.
@@ -23,6 +23,12 @@ class BooksController extends Controller
     {
         $books = Book::orderBy('id', 'desc')->paginate(12);
         return view('books.index')->with('books', $books);
+    }
+
+    public function getAPI()
+    {
+        $books = Book::orderBy('id', 'desc')->paginate(12);
+        return $books;
     }
 
     /**

@@ -34,6 +34,8 @@ Route::get('/dashboard/receipt-list', 'DashBoardController@receiptList');
 
 Route::get('/dashboard/receipt/{receipt}', 'DashBoardController@receipt');
 
+Route::get('/books/getAPI', 'BooksController@getAPI');
+
 Route::put('/dashboard/password', 'DashBoardController@updatePassword');
 
 Route::put('dashboard/pending-list/{pending}', 'DashBoardController@rejectPending');
